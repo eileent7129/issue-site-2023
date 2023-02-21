@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.thumbnailContainer{
+	position: relative;
+	text-align: center;
+	
+}
+/*.titleDiv{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+/*	transform: translate(-50%, -50%);*/
+
+.headImage{
+	width: 100%;
+	height: auto%;
+	margin: 0px;
+	padding: 0px;
+	filter: brightness(75%);
+}
+
+.myText {
+	position: absolute;
+	color: white;
+	font-size: 80px;
+	width: 80%;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.learn {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	width: 80%;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.arrowDown {
+	position: relative;
+	border: solid white;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+  	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    bottom: 40px;
+}
+
+.conntentContainer{
+	position: relative;
+}
+.container {
+  padding: 2px 16px;
+}
+.card{
+	display: inline-block;
+	width: 32%;
+	aspect-ratio: 1/1;
+	padding: 0px;
+	margin: 0px;
+	object-fit: cover;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h4 {
+	color: black;
+}
+/*.imgOne{
+	height: 1000px;
+	width: 500px;
+}*/
+/*body {
+	font-familt: sans-serif;
+}
+
+#nav {
+	background-color: #ff0072;
+	padding: 10px;
+}
+/*
+/*once you visit a page, default behavior is to give link to page a diff color*/
+/*a, a:visited {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;*/
+/*	margine: 10px <- would only place color inside the content box*/
+
+/*}*/
+
+
+/*a:hover {
+	background-color: #000;
+	color: #ff0072;
+
+}
+
+.current{
+	text-decoration: underline;
+}*/
