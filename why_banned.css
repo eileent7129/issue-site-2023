@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	/*margin: 0px;
+	padding: 0px;*/
+	background-color:#E8E2D0;
+}
+
+.titleContainer{
+	position: relative;
+	width: 60%;
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20px;
+}
+
+.mainImage {
+	position: absolute;
+	width: auto;
+	height: 500px;
+	filter: brightness(75%);
+	right: 10px;
+
+}
+
+.myTitle {
+	position: absolute;
+	font-size: 50px;
+	width: 40%;
+	top: 100px;
+	text-align: center;
+}
+
+.mainText {
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	top: 520px;
+}
+
+.contentOne {
+	postion: relative;
+	width: 60%;
+	margin-top: 80px;
+	margin-left: 20%;
+	margin-right: 20px;
+	top: 520px;
+
+}
+
+.paraOne {
+	position: absolute;
+	text-align: left;
+	top: 800px;
+	font-size: 20px;
+	width: 60%;
+}
+.paraTwo {
+	position: absolute;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	top: 950px;
+	font-size: 20px;
+	width: 60%;
+}
+
+.empty{
+	position: absolute;
+	top: 1000px;
+	position: 1000px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a{
+	float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+  background-color: black;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}

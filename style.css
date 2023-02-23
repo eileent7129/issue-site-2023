@@ -4,10 +4,12 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	background-color:#E8E2D0;
+
 }
 .thumbnailContainer{
 	position: relative;
-	text-align: center;
+	text-align: center
 	
 }
 /*.titleDiv{
@@ -61,11 +63,12 @@ body{
 
 .conntentContainer{
 	position: relative;
+	background-color: gray;
+
 }
-.container {
-  padding: 2px 16px;
-}
+
 .card{
+	background-color: white;
 	display: inline-block;
 	width: 32%;
 	aspect-ratio: 1/1;
@@ -73,11 +76,58 @@ body{
 	margin: 0px;
 	object-fit: cover;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
 
+}
+.container{
+  padding: 2px 16px;
+}
+/*.imgOne{
+	position:absolute;
+	width: 18rem;
+	height: auto;*/
+/*}
+.imgTwo{
+	position:absolute;
+	width: 18rem;
+	height: auto;
+}*/
+/*.imgThree{
+	position:absolute;
+	width: 18rem;
+	height: auto;
+}*/
 h4 {
+	text-align: center;
 	color: black;
 }
+h2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a{
+	float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+  background-color: black;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
 /*.imgOne{
 	height: 1000px;
 	width: 500px;

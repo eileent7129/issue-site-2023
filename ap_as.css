@@ -1,0 +1,110 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#E8E2D0;
+}
+
+.headerContainer{
+	position: relative;
+	text-align: center;
+}
+
+.headImage {
+	width: 100%;
+	height: 500px;
+	margin: 0px;
+	padding: 0px;
+	filter: brightness(75%);
+	object-fit: cover;
+}
+.myTitle{
+	position: absolute;
+	font-size: 80px;
+	color: white;
+	width: 80%;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/*create cover element*/
+.headerText {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	width: 60%;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.contentOne{
+	position: relative;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	top: 50px;
+/*	text-align: center;*/
+}
+
+.paraOne {
+	display: inline-block;
+	position: absolute;
+	font-size: 25px;
+	width: 50%;
+	left: 40px;
+	top: 40px;
+
+}
+.diaspora {
+	position: absolute;
+	right: 50px;
+	top: 30px;
+	width: 425px;
+	height: auto;
+}
+.contentTwo{
+	position: relative;
+	width: 70%;
+	top: 500px;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	
+}
+.paraTwo{
+	display: block;
+	font-size: 30px;
+
+}
+
+.empty{
+	position: relative;
+	height: 50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a{
+	float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+  background-color: black;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
